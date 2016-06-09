@@ -1,0 +1,52 @@
+- Scoping rules: 
+	- Lexical Scope
+	- Eval
+	- with keyword
+	
+- New Scoping Rule
+	- Functions
+	- Catch Blocks
+	- Let Keyword With Curly Braces
+	
+- Undefined and Undeclared
+	- Undefined: Doesn't currently have a value, empty placeholder (is declared)
+	- Undeclared: Doesn't exist
+	
+- Hoisting
+	- Every declaration "moves up" (hoisted) when compiled
+
+- this Keyword, what determines what this points to?
+	- New Keyword
+	- Explicit binding (containing object)
+	- Explicit binding (apply, call)
+	- Default rule
+- hard binding
+
+- Closure
+	- Closure is when a function "remebers" its lexical scope even when the function is executed outside that lexical scope
+	- When inner function is transported to the outer function
+	- Scopes stays around as long as there are some function that has a closure over a scope
+	- Modules (outer function and inner function that returns closure scope)
+
+
+- Prototypes'
+	- Every single "object" is built by a contructor function
+	- A constructor makes an object linked to its own prototype
+	- Prototypes are linked to other objects
+	- Constructor is a function that is called with the new keyword, .contructor is a property
+	- [[Prototype]] is a linkage from one object to another object
+	- [[Prototype]] delegates up to prototype chain to  a different object
+	-
+
+- Callbacks
+	Async Patterns
+		- callback hell (Giving control rest of your program to someone else)
+		- Inversion of Control
+		- Nested Callbacks
+		- Generator (pause yield, continue next)
+		- Promises (Uninverts the inversion of control)
+
+- 
+
+
+	
